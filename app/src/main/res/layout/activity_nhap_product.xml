@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Nhap_Product"
+    android:background="@drawable/backgroundjpg">
+
+
+
+
+    <EditText
+        android:padding="16dp"
+        android:id="@+id/tvTypeProductId"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="ProductId"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:padding="16dp"
+        android:id="@+id/tvTypeProductName"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="Product Name"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:padding="16dp"
+        android:id="@+id/tvTypeQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="Quantity"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:padding="16dp"
+        android:id="@+id/tvTypePrice"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="Price"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:padding="16dp"
+        android:id="@+id/tvTypeMaker"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="Maker"
+        android:textColorHint="@color/white"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Back" />
+
+</LinearLayout>
